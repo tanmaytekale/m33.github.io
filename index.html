@@ -24,14 +24,21 @@
       }
 
       .plane {
-        font-size: clamp(3rem, 12vw, 8rem);
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: lowercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .plane img {
+        display: block;
+        width: clamp(8rem, 40vw, 16rem);
+        height: auto;
       }
     </style>
   </head>
   <body>
-    <div class="plane">m33</div>
+    <div class="plane">
+      <img src="m33.png" alt="m33" />
+    </div>
   </body>
 </html>
